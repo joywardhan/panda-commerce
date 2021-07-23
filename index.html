@@ -7,10 +7,14 @@
     <title>This is panda commerce website.</title>
     <!-- bootstrap stylesheet -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- css stylesheet -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!-- header -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <!-- nav ber -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <div class="container">
               <a class="navbar-brand" href="#">
                 <img src="images/logo.png" alt="" class="d-inline-block align-text-top">
@@ -24,28 +28,28 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Shoes</a>
+                    <a class="nav-link" href="#shoes">Shoes</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Backpack</a>
+                    <a class="nav-link" href="#backpack">Backpack</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Subscribe</a>
+                    <a class="nav-link" href="#subscribe">subscribe</a>
                   </li>
                 </ul>
               </div>
             </div>
           </nav>
-          <section class="container">
+          <section class="container pt-5">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-inner rounded">
                 <div class="carousel-item active">
-                  <div class="row d-flex align-items-center p-5" style="background-color: #FEEAE9;">
+                  <div class="row d-flex align-items-center p-5 carousel-div">
                     <div class="col-lg-7">
                       <h1>Cool Dude Headphone</h1>
                       <p>This is the best  headphone in the world for people who just want to waste time in front of funky world.</p>
-                      <h1>$420</h1>
-                      <div class="btn btn-warning">Buy Now</div>
+                      <h1 class="carousel-heading">$420</h1>
+                      <div class="btn carousel-btn">Buy Now</div>
                     </div>
                     <div class="col-lg-5">
                       <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
@@ -57,8 +61,8 @@
                     <div class="col-lg-7">
                       <h1>X-Box for your living room</h1>
                       <p>This is the best x-box in the world for people who just want to waste time in front of fake sports.</p>
-                      <h1>$600</h1>
-                      <div class="btn btn-warning">Buy Now</div>
+                      <h1 class="carousel-heading">$600</h1>
+                      <div class="btn carousel-btn">Buy Now</div>
                     </div>
                     <div class="col-lg-5">
                       <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
@@ -70,8 +74,8 @@
                     <div class="col-lg-7">
                       <h1>Mega LCD TV For Sports</h1>
                       <p>This is the best tv in the world for people who just want to waste time in front of tv.</p>
-                      <h1>$1200</h1>
-                      <div class="btn btn-warning">Buy Now</div>
+                      <h1 class="carousel-heading">$1200</h1>
+                      <div class="btn carousel-btn">Buy Now</div>
                     </div>
                     <div class="col-lg-5">
                       <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
@@ -90,11 +94,137 @@
             </div>
           </section>
     </header>
+    <!-- main -->
     <main>
-
+      <!-- watch -->
+          <section class="container my-5">
+              <div class="row g-4">
+                <div class="col-lg-4 col-md-6 col-sm-12" >
+                  <div class="p-2 border bg-watch d-flex justify-content-around align-items-center rounded-3">
+                    <h1 class="text-light">Watch</h1>
+                    <img src="images/categories/watch.png" width="100px" alt="">
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                  <div class="p-2 border bg-bag d-flex justify-content-around align-items-center rounded-3">
+                    <h1 class="text-light">Bag</h1>
+                    <img src="images/categories/bag.png" width="100px" alt="">
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                  <div class="p-2 border bg-shoe d-flex justify-content-around align-items-center rounded-3">
+                    <h1 class="text-light">Shoes</h1>
+                    <img src="images/categories/shoes.png" width="100px" alt="">
+                  </div>
+                </div>
+                
+              </div>   
+          </section>
+          <!-- shoes -->
+          <section class="container my-5" id="shoes">
+            <h2>Shoes</h2>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+              <div class="col">
+                <div class="card h-100 shadow-lg border-0">
+                  <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Supply 350</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional.</p>
+                    <h5>$120</h5>
+                  </div>
+                  <div class="m-3">
+                    <button class="btn btn-shoes">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100 shadow-lg border-0">
+                  <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Nike 360</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    <h5>$320</h5>
+                  </div>
+                  <div class="m-3">
+                    <button class="btn btn-shoes">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100 shadow-lg border-0">
+                  <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Red Airmax</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional.</p>
+                    <h5>$350</h5>
+                  </div>
+                  <div class="m-3">
+                    <button class="btn btn-shoes">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- backpack -->
+          <section class="container my-5" id="backpack">
+            <h2>Backpack</h2>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+              <div class="col">
+                <div class="card h-100 shadow-lg border-0">
+                  <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Red Laltu Bag</h5>
+                    <h5>$120</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    
+                  </div>
+                  <div class="m-3">
+                    <button class="btn btn-backpack">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100 shadow-lg border-0">
+                  <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Blue Niltu Bag</h5>
+                    <h5>$320</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                  </div>
+                  <div class="m-3">
+                    <button class="btn btn-backpack">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100 shadow-lg border-0">
+                  <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Black Kaltu Bag</h5>
+                    <h5>$169</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                  </div>
+                  <div class="m-3">
+                    <button class="btn btn-backpack">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- subscribe -->
+          <section class="container d-flex justify-content-center p-5 my-5 rounded-3" id="subscribe">
+            <div>
+              <h1>LET'S STAY IN TOUCH</h1>
+            <p>Get updates on sales, specials and more</p>
+            <input type="email" class="border-0 form-control" placeholder="Enter Your Email">
+            <br>
+            <div class="btn btn-submit mt-1">SUBMIT</div>
+            </div>
+          </section>
     </main>
-    <footer>
-
+    <!-- footer -->
+    <footer class="mt-5 text-center">
+       <p><small>©2020. Panda Commerce. All rights reserved. Sofia, Bulgaria.</small></p>
     </footer>
     <!-- bootstrap script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

@@ -1,0 +1,10 @@
+.carousel-div{background-color: #fceae8;margin-top: 100px;}
+.carousel-heading{color: #ff136f;font-weight: bold;}
+.carousel-btn{background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);border: none;color: #fff;padding: 9px 25px;}
+.bg-watch{background-color:#ffa500 ;}
+.bg-bag{background-color:#da70d6 ;}
+.bg-shoe{background-color: #0000ff;}
+.btn-shoes{background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);color: #fff;border-radius: 8px;padding: 9px 25px;border: none;}
+.btn-backpack{background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);color: #fff;border-radius: 8px;padding: 9px 25px;border: none;}
+#subscribe{background-color: #fceae8;}
+.btn-submit{background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);color: #fff;border-radius: 8px;padding: 9px 25px;border: none;}
